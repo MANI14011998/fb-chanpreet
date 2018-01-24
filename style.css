@@ -1,0 +1,144 @@
+body{
+	height: 4000px;
+	background:  linear-gradient(to bottom right, white , #bcbdc4);
+}
+.head{
+	position: fixed;
+	width: 100%;
+	height: 100px;
+	top: 0;
+	left:0;
+	color: white;
+	z-index: 7;
+	font-family: klavika;
+	-webkit-box-shadow:0 3px 8px rgba(0,0,0,.25);
+}
+.header{
+	position: fixed;
+	width: 100%;
+	height: 100px;
+	top: 0;
+	left:0;
+	color: white;
+	z-index: 7;
+	font-family: klavika;
+	background: #405D9A;
+
+}
+#img1{ font-size: 10px;
+	font-family: vardana;
+	left: 100px;
+	height: 50px;
+	width:110px;
+	top: 25px;
+}
+#form1{
+	left: 700px;
+	height: 60px;
+	width:180px;
+	top: 20px;
+
+}
+#form2{
+	left: 895px;
+	height: 60px;
+	width:200px;
+	top: 20px;
+}
+.submit1{
+	left: 1100px;
+	top:39px;
+	background:white;
+	color:#142170;
+	position:fixed;
+	z-index:20;
+	height:22px;
+	width:50px;
+	cursor:pointer;
+	border-radius: 20px;
+
+}
+.bodyx{
+	position: absolute;
+	left: 0;
+	top: 100px;
+	width: 100%;
+	height: 645px;
+}
+#intro1{
+	top: 40px;
+	left: 100px;
+	font-family: vardana;
+	font-size: 30px;
+	color: #142170;
+	height: 75px;
+	width: 550px;
+}
+#intro2{
+	top: 40px;
+	left: 700px;
+	font-family: vardana;
+	font-size: 50px;
+	color: darkgray;
+	height: 60px;
+	width: 500px;
+}
+#img2{
+	left: 100px;
+	height: 250px;
+	width:550px;
+	top: 130px;
+}
+#intro3{
+	top: 100px;
+	left: 700px;
+	font-family: vardana;
+	font-size: 20px;
+	color: black;
+	height: 50px;
+	width: 300px;
+}
+#form3{
+	left: 700px;
+	height: 495px;
+	width:450px;
+	top: 150px;
+	font-family: verdana;
+	font-kerning: 20px;
+	color: #142170;
+}
+#namebox{
+width:200px;
+height:30px;
+border-radius:10px/10px;
+background:white;
+padding: 5px;
+font-size: 20px;
+}
+#mailbox{
+width:400px;
+height:30px;
+border-radius:10px/10px;
+background:white;
+padding: 5px;
+font-size: 20px;
+}
+.submit2{
+	left: 700px;
+	top:625px;
+	background:seagreen;
+	color:white;
+	position:absolute;
+	font-size: 20px;
+	height:50px;
+	width:100px;
+	cursor:pointer;
+	border-radius: 15px/15px;
+	outline: double;
+}
+.submit2:hover{
+	text-decoration: underline;
+	cursor: pointer;
+	background: goldenrod;
+	color:#000;
+}
